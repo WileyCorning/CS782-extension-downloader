@@ -3,6 +3,8 @@ This repo contains code to automatically download VSIX files from the VSCode mar
 
 Run `node index.js` to execute the code.
 
+Given a set of downloaded VSIX files, `analyze.sh` will extract them and run a SonarQube analysis. You may need to edit the script to change the SonarQube install path for your computer.
+
 ## Request config values
 
 ### Flags
